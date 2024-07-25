@@ -9,13 +9,15 @@ body {
 header {
     text-align: center;
     padding: 2rem;
+    position: relative;
 }
 
 .logo {
-    width: 50px;
+    width: 50px; /* Adjust the size as needed */
     position: absolute;
     top: 10px;
     left: 20px;
+    cursor: pointer;
 }
 
 .images a img {
